@@ -1,0 +1,174 @@
+body{
+	margin:0;
+	
+}
+
+#container{
+	background-color:#ebebeb;
+	width:1000px;
+	margin:auto;
+	padding:0;
+	
+
+}
+#header{
+	width:100%;
+	height:120px;
+	background-color:#f5f8fa;
+	text-align:center;
+
+}
+#logo{
+	width:25%;
+	height:100%;
+	background-color:red;
+	text-align:center;
+	float:left;
+}
+#logo img{
+	width:80%;
+	margin:10px 0px 0px 20px;
+	height:90%;
+	text-align:center;
+}
+#slogan{
+	width:75%;
+	height:100%;
+	background-color:green;
+	float:right;
+	
+}
+
+#slogan img{
+	width:100%;
+	height:100%;
+}
+#slogan p{
+	
+	width:100%;
+	height:100%;
+	margin:0;
+	text-align:left;
+	padding-left:10px;
+	padding-top:3px;
+	
+
+}
+#onz{
+	text-align:left;
+	padding-left:8px;
+	padding-top:5px;
+	margin:0;
+}
+
+#nav{
+	width:100%;
+	height:50px;
+	background-color:lightblue;
+
+}
+#nav ul{
+	list-style:none;
+	margin:0;
+	
+}
+#nav ul li{
+	display:inline;
+	float:left;
+	padding-top:15px;
+	margin-left:2px;
+	
+	
+}
+#nav ul li a{
+	width:60px;
+	padding:2px 10px 2px 15px;
+	text-decoration:none;
+	background-color:black;
+	display:block;
+	color:#f5f8fa;
+	border-right:1px solid;
+}
+
+#nav ul li a:hover{
+	background-color:green;
+	font-family:comic sans ms;
+	color:red;
+	
+}
+
+
+#article{
+	width:70%;
+	height:530px;
+	float:left;
+	padding:0;
+
+}
+
+#content{
+	padding:0;
+	margin:0;
+	width:90%;
+	
+}
+#content h1,p{
+	margin:15px;
+	
+}
+#content h1 , #content p , # content img{
+	margin:15px;
+}
+
+
+#sidebar{
+	width:28%;
+	height:530px;
+	background-color:#f5f8fa;
+	float:right;
+	padding:10px;
+	color:gray;
+	
+}
+#sidebar h1{
+	text-decoration:underline;
+
+}
+#sidebar h1,#sidebar p{
+	padding:0;
+	margin:0;
+	padding-left:
+}
+
+#sidebar a{
+	color:gray;
+	text-decoration:none;
+	
+	
+}
+#sidebar button{
+	color:red;
+	background-color:black;
+	border-style:none;
+	padding:10px;
+	text-align:center;
+	margin:10px 0px 0px 50px;
+
+}
+.icon{
+	width:25px;
+	padding:10px 0px 0px 5px;
+} 
+
+#footer{
+	width:99%;
+	height:40px;
+	background-color:black;
+	clear:both;
+}
+#footer{
+	color:white;
+	padding:15px 0px 0px 10px;
+	text-align:center;
+}
+

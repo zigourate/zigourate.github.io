@@ -1,0 +1,114 @@
+<html>
+	<head>
+		<title>MarkSheet</title>
+		<script>
+			function main(){
+				document.getElementById("cont").style.display="block";
+				var name=document.getElementById("name").value;
+				var email=document.getElementById("email").value;
+				var phone=document.getElementById("phone").value;
+				var mess=document.getElementById("mess").value;	
+				
+				document.getElementById("name1").innerHTML=name;
+				document.getElementById("email1").innerHTML=email;
+				document.getElementById("phone1").innerHTML=phone;
+				document.getElementById("mess1").innerHTML=mess;
+			}
+		</script>
+		<style>
+			#cont{
+			background-color:#f5f8fa;
+			width:800px;
+			height:550px;
+			margin:40px 0px 0px 300px;			
+			padding:0;
+			display:none;
+		
+		
+			}	
+			#header{
+			width:100%;
+			height:50px;
+			background-color:#ffeecc;
+			text-align:center;
+			font-size:25px;
+			font-family:comic sans ms;
+			}
+			#tab1{
+			text-align:center;
+			margin:auto;
+			padding:10px 30px 10px 30px ;
+			width:85%;
+			}
+			#tab2{
+			text-align:center;
+			border:1px dotted blue  ;
+			margin:auto;
+			padding:10px 30px 10px 30px ;
+			width:85%;
+			}
+		
+			th,td{
+			font-size:18px;
+			text-align:center;
+			
+			}
+			th{
+			padding:15px;
+		
+			}
+			input{
+			border-style:ridge;
+			background-color:#f5f8fa;
+			}
+			input[type=submit]{
+			border-adiuse:250px;
+			background-color:lightblue;
+			}
+	
+			
+		</style>
+	</head>
+	<body >
+		FullName : <input type="text" id="name">
+		Email :<input type="text" id="email"><br><br>
+		Phone : <input type="text" id="phone" value="">
+		Message : <input type="text" id="mess" value=""><br>
+		<input type="submit" id="sub" value="Generate Marksheet" onClick="main()">
+		
+		
+		<div id="cont">
+			<div id="header">Sheet</div>
+		
+		
+			<table id="tab1">
+				<tr>
+					<th>Name</th>
+					<th>Email</th>								
+				</tr>
+				<tr>
+					<td id="name1"></td>
+					<td id="email1"></td>
+				</tr>
+			</table><br><br>
+						
+			<table id="tab2">
+			<tr>
+				<th>Phone</th>
+				<th>Message</th>				
+			</tr>
+			<tr>
+			<td id="phone1"></td>
+				<td id="mess1"></td>			
+			</table><br><br>
+
+		</div>
+	
+		
+	
+		<script></script>
+		
+		<h1></h1>
+
+	</body>
+</html>
